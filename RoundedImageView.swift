@@ -36,7 +36,6 @@ class RoundedImageView : UIImageView {
     override func layoutSubviews() {
         super.layoutSubviews()
         if (isRounded) {
-//            layer.cornerRadius = bounds.size.width / 2
             layer.cornerRadius = bounds.size.height / 2
             clipsToBounds = true
         }
